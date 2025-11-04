@@ -1,0 +1,3 @@
+WHITESPACE = _{ " " | "\t" }
+curl = { SOI ~ "curl" ~ url ~ EOI }
+url = @{ (!WHITESPACE ~ ANY)+ }

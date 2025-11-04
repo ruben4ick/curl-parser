@@ -1,0 +1,12 @@
+[package]
+name = "curl_parser"
+version = "0.1.0"
+edition = "2024"
+license = "MIT"
+description = "A parser that takes a curl command as plain text input, parses it, and extracts structured information from it."
+
+[dependencies]
+anyhow = "1.0.100"
+pest = "2.8.3"
+pest_derive = "2.8.3"
+thiserror = "2.0.17"
