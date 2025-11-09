@@ -1,0 +1,3 @@
+curl -X GET "https://my.example.com"
+  -H "Authorization: Bearer abc123"
+  -H "Accept: application/json"

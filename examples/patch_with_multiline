@@ -1,0 +1,5 @@
+# Update a resource by ID
+curl --request PATCH "https://my.example.com/123" \
+  -H "Authorization: Bearer xyz" \
+  -H "Content-Type: application/json" \
+  -d '{"name": "Updated","enabled": true}'
