@@ -10,9 +10,19 @@ It reads a single curl command and extracts the following request components:
 
 ## Example input
 ```
-curl -X POST "https://example.com/do?param=value
-"
--H "Authorization: Bearer some_token"
--H "Content-Type: application/json"
--d '{"amount":100,"email":"ao.ruban@ukma.edu.ua"}'
+curl -X POST "https://my.example.com/create" \
+  -H "Authorization: Bearer 123" \
+  -H "Content-Type: application/json" \
+  -d '{"name": "New Item", "description": "It is a new item."}'
+```
+
+## Example output
+```
+method: POST
+url: https://my.example.com/create
+headers:
+  Authorization: Bearer 123
+  Content-Type: application/json
+body:
+{"name": "New Item", "description": "It is a new item."}
 ```
