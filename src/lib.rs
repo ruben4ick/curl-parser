@@ -1,3 +1,5 @@
+#![doc = include_str!("../README.md")]
+
 use pest::Parser;
 use pest::error::Error as PestError;
 use pest_derive::Parser;
