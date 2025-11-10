@@ -1,9 +1,10 @@
 [package]
-name = "curl_parser"
+name = "curl-parser-ruben4ick"
 version = "0.1.0"
 edition = "2024"
 license = "MIT"
 description = "A parser that takes a curl command as plain text input, parses it, and extracts structured information from it."
+repository = "https://github.com/ruben4ick/curl-parser"
 
 [dependencies]
 anyhow = "1.0.100"

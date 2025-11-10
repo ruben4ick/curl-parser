@@ -82,3 +82,6 @@ curl = { SOI
   ~ wss ~ EOI
 }
 ```
+
+## Crates.io
+The parser is available as a Rust crate: [curl-parser-ruben4ick](https://crates.io/crates/curl-parser-ruben4ick)

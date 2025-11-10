@@ -1,7 +1,7 @@
 #[cfg(test)]
 mod tests {
     use anyhow::{Context, Result};
-    use curl_parser::{CurlParser, Rule};
+    use curl_parser_ruben4ick::{CurlParser, Rule};
     use pest::Parser;
 
     #[test]

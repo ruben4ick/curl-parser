@@ -1,12 +1,12 @@
 use clap::{Parser, Subcommand};
-use curl_parser::parse;
+use curl_parser_ruben4ick::parse;
 use std::fs;
 use std::path::PathBuf;
 use std::process::exit;
 
 #[derive(Parser)]
 #[command(
-    name = "curl_parser",
+    name = "curl_parser_ruben4ick",
     about = "Parse curl commands into a structured model"
 )]
 struct Cli {
